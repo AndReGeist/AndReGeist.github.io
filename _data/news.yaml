@@ -1,0 +1,25 @@
+news:
+  - date: "Jul 2024"
+    text: >
+      Our work <a href="https://arxiv.org/abs/2407.03476">"Learning deformable linear object dynamics from a single trajectory"</a>
+      is available on arxiv. The paper proposes a physics-informed NeuralODE to learn accurate deformable object dynamics
+      by learning local errors in force space via neural networks.
+
+  - date: "Jun 2024"
+    text: >
+      <a href="https://arxiv.org/abs/2307.07975">"Pseudo-rigid body networks: learning interpretable deformable object dynamics from partial observations"</a>
+      has been accepted for presentation at IROS 2024.
+
+  - date: "May 2024"
+    text: >
+      <a href="https://arxiv.org/abs/2404.11735">"Learning with 3D rotations, a hitchhiker's guide to SO(3)"</a>
+      has been accepted to ICML 2024!
+
+  - date: "May 2023"
+    text: >
+      I've joined Georg Martius' Autonomous Learning group for a postdoc.
+
+  - date: "Aug 2022"
+    text: >
+      <a href="https://sites.google.com/view/wheelbot">"The Wheelbot: A Jumping Reaction Wheel Unicycle"</a>
+      has been nominated for an award at IROS 2022.

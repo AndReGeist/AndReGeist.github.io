@@ -1,0 +1,31 @@
+experiences:
+
+- place: "University of Tübingen"
+  time: "2024 - now"
+  title: "Postdoc"
+  subtitle: "Autonomous Learning Group (Georg Martius)"
+  category: "work"
+
+- place: "RWTH Aachen"
+  time: "2022 - 2024"
+  title: "Postdoc"
+  subtitle: "Institute for Data Science in Mechanical Engineering (Sebastian Trimpe)"
+  category: "work"
+
+- place: "MPI for Intelligent Systems"
+  time: "2018 - 2022"
+  title: "Ph.D. Student"
+  subtitle: "Intelligent Control Systems (Sebastian Trimpe)"
+  category: "school"
+
+- place: "UC Berkeley"
+  time: "Summer 2017"
+  title: "Research Intern"
+  subtitle: "Vehicle Dynamics and Control Laboratory"
+  category: "work"
+
+- place: "TU Hamburg"
+  time: "2014 - 2018"
+  title: "M.Sc. Student"
+  subtitle: "Theoretical Mechanical Engineering"
+  category: "school"

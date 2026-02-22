@@ -1,0 +1,254 @@
+---
+layout: default
+title: Home
+---
+<!-- ========== ABOUT ========== -->
+<div class="docs-section" id="about">
+  <h4>About</h4>
+  <p>
+  My research focuses on <b>data-driven dynamics simulators</b>.
+  Simulators help us to predict the motion of physical systems such as robots, folding proteins, weather, and energy networks over time.
+  To unlock new applications in these domains, simulators have to be increasingly <b>accurate and reliable</b>. In my research,
+  I look at how we can <b>improve simulator performance by combining physics with machine learning</b>.
+  </p>
+</div>
+
+<!-- ========== BIO ========== -->
+<div class="docs-section" id="bio">
+  <h4>Bio</h4>
+  <p>
+  I'm a postdoc working with <a href="https://scholar.google.de/citations?user=b-JF-UIAAAAJ&hl=en" target="_blank">Georg Martius</a> at the <a href="https://uni-tuebingen.de/en/" target="_blank">University of Tübingen</a> (until recently we've been located at the <a href="https://is.mpg.de/" target="_blank">MPI-IS</a>).
+  I've been a postdoc at <a href="https://www.rwth-aachen.de" target="_blank">RWTH Aachen</a> with Sebastian Trimpe working on physics-informed neuralODEs.
+  During my PhD supervised by <a href="https://scholar.google.de/citations?user=9kzHZssAAAAJ&hl=de" target="_blank">Sebastian Trimpe</a> at the <a href="https://is.mpg.de/" target="_blank">Max Planck Institute for Intelligent Systems</a>, I developed probabilistic models to learn implicitly-constrained robot dynamics.
+  In collaboration with <a href="https://scholar.google.de/citations?user=L9ztLe8AAAAJ&hl=en" target="_blank">Jonathan Fiene</a>, we developed the <a href="https://sites.google.com/view/wheelbot" target="_blank">"Wheelbot"</a> being a robot platform for teaching control theory and robotics.
+  </p>
+  <p>
+  During my Master's in <a href="https://www.tuhh.de/tuhh/startseite" target="_blank">Theoretical Mechanical Engineering at TU Hamburg</a>, I worked on end-to-end vehicle control as a research intern at the Vehicle Dynamics and Control laboratory of the <a href="https://www.berkeley.edu/" target="_blank">University of California, Berkeley</a> and as a research student on autonomous field exploration via AUV swarms working with <a href="https://scholar.google.com.au/citations?user=AvvaaJcAAAAJ&hl=en" target="_blank">Eugen Solowjow</a>.
+  </p>
+</div>
+
+<!-- ========== NEWS ========== -->
+<div class="docs-section" id="news">
+  <h4>News</h4>
+  <UL style="list-style-type: none; padding: 2px; overflow-y: scroll; height:500px;">
+    {% for item in site.data.news.news %}
+    <li> [{{ item.date }}] {{ item.text }} </li>
+    {% endfor %}
+  </UL>
+</div>
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h4>Publications</h4>
+
+  <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
+  <sup>*</sup> indicates equal contribution.
+  </p>
+
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
+    <li><div class="button" data-ref="#papers-all">All</div></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="papers-selected">
+      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
+      {% for paper in selected_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.arxiv %}
+              <a class="button" href="{{ paper.arxiv }}" target="_blank">arXiv</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="papers-all">
+      {% for paper in site.data.publications.papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.arxiv %}
+              <a class="button" href="{{ paper.arxiv }}" target="_blank">arXiv</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<!-- ========== PROJECTS ========== -->
+<div class="docs-section" id="projects">
+  <h4>Projects</h4>
+
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
+    <li><div class="button" data-ref="#projects-all">All</div></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="projects-selected">
+      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
+      {% for project in selected_projects %}
+        {% assign index_modulo = forloop.index0 | modulo:3 %}
+        {% if index_modulo == 0 %}
+          <div class="row">
+        {% endif %}
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="{{ project.url }}">
+                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>{{ project.title }}</b> <br/>
+                  {{ project.subtitle }}
+                </div>
+
+            </div>
+          </div>
+
+        {% if index_modulo == 2 %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="projects-all">
+      {% for project in site.data.projects.projects %}
+        {% assign index_modulo = forloop.index0 | modulo:3 %}
+        {% if index_modulo == 0 %}
+          <div class="row">
+        {% endif %}
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="{{ project.url }}">
+                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>{{ project.title }}</b> <br/>
+                  {{ project.subtitle }}
+                </div>
+
+            </div>
+          </div>
+
+        {% if index_modulo == 2 %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <p><i>Projects coming soon.</i></p>
+</div>
+
+<!-- ========== TEACHING ========== -->
+<div class="docs-section" id="teaching">
+  <h4>Teaching</h4>
+
+  {% for entry in site.data.teaching.teaching %}
+  <p>
+    {{ entry.year }}, {{ entry.institution }} ({{ entry.advisor }}) &mdash; <b>{{ entry.role }}: "{{ entry.course }}"</b>{% if entry.details %} &mdash; {{ entry.details }}{% endif %}
+  </p>
+  {% endfor %}
+
+  <hr/>
+
+  <h5>Supervision</h5>
+  <ul>
+    <li>{{ site.data.teaching.supervision.masters_theses }} x Master's Thesis Projects</li>
+    <li>{{ site.data.teaching.supervision.semester_projects }} x Semester Thesis Projects</li>
+    <li>{{ site.data.teaching.supervision.internship_projects }} x Internship Projects</li>
+  </ul>
+</div>
+
+<!-- ========== RESUME ========== -->
+<div class="docs-section" id="resume">
+  <h4>Vita</h4>
+
+  <!-- The Timeline -->
+  <ul class="timeline">
+    {% for exp in site.data.experience.experiences %}
+    <li>
+      {% if exp.category == "work" %}
+      <div class="direction-l">
+      {% else %}
+      <div class="direction-r">
+      {% endif %}
+        <div class="flag-wrapper">
+          <span class="flag">{{ exp.place }}</span>
+          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
+        </div>
+        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

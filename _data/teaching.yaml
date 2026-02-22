@@ -1,0 +1,37 @@
+teaching:
+  - year: "2024"
+    institution: "University of Tübingen"
+    advisor: "Georg Martius"
+    role: "Guest lecturer"
+    course: "Basics of Machine Learning"
+    details: "Ridge regression, Bayesian regression, Decision trees, Random Forest"
+
+  - year: "2024"
+    institution: "University of Tübingen"
+    advisor: "Georg Martius"
+    role: "Teaching Assistant"
+    course: "Reinforcement Learning (Proseminar)"
+
+  - year: "2023"
+    institution: "RWTH Aachen"
+    advisor: "Prof. Sebastian Trimpe"
+    role: "Teaching Assistant"
+    course: "Computer Science in Mechanical Engineering"
+
+  - year: "2023"
+    institution: "RWTH Aachen"
+    advisor: "Prof. Sebastian Trimpe"
+    role: "Guest lecturer"
+    course: "Fundamentals of Machine Learning"
+    details: "Learning dynamics with probabilistic models"
+
+  - year: "2022"
+    institution: "RWTH Aachen"
+    advisor: "Dr. Dominik Baumann"
+    role: "Teaching Assistant"
+    course: "Ethics of Artificial Intelligence and Robotics"
+
+supervision:
+  masters_theses: 4
+  semester_projects: 6
+  internship_projects: 5

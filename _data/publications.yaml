@@ -1,0 +1,78 @@
+papers:
+  - title: "Learning with 3D rotations, a hitchhiker's guide to SO(3)"
+    authors: "<b>A. René Geist</b>, Jonas Frey, Mikel Zhobro, Anna Levina, Georg Martius"
+    venue: "ICML'24: International Conference on Machine Learning. 2024."
+    paper_pdf: "https://proceedings.mlr.press/v235/geist24a.html"
+    arxiv: "https://arxiv.org/abs/2404.11735"
+    selected: y
+
+  - title: "Learning deformable linear object dynamics from a single trajectory"
+    authors: "Shamil Mamedov, <b>A. René Geist</b>, Ruan Viljoen, Sebastian Trimpe, Jan Swevers"
+    venue: "arXiv preprint. 2024."
+    arxiv: "https://arxiv.org/abs/2407.03476"
+    selected: y
+
+  - title: "Pseudo-rigid body networks: learning interpretable deformable object dynamics from partial observations"
+    authors: "Shamil Mamedov*, <b>A. René Geist*</b>, Jan Swevers, Sebastian Trimpe"
+    venue: "IROS'24: IEEE/RSJ International Conference on Intelligent Robots and Systems. 2024."
+    arxiv: "https://arxiv.org/abs/2307.07975"
+    code: "https://github.com/shamilmamedov/PRB_Net"
+    selected: n
+
+  - title: "The Wheelbot: A jumping reaction wheel unicycle"
+    authors: "<b>A. René Geist</b>, Jonathan Fiene, Naomi Tashiro, Zheng Jia, Sebastian Trimpe"
+    venue: "IEEE Robotics and Automation Letters. 2022."
+    paper_pdf: "https://ieeexplore.ieee.org/abstract/document/9834094"
+    video: "https://www.youtube.com/watch?v=UEMN0wPo5iE"
+    code: "https://sites.google.com/view/wheelbot"
+    selected: y
+
+  - title: "Physics-informed regression of implicitly-constrained robot dynamics"
+    authors: "<b>A. René Geist</b>"
+    venue: "PhD Thesis, University of Stuttgart. 2022."
+    paper_pdf: "https://elib.uni-stuttgart.de/handle/11682/12789"
+    selected: n
+
+  - title: "Using physics knowledge for learning rigid-body forward dynamics with Gaussian process force priors"
+    authors: "Lucas Rath*, <b>A. René Geist*</b>, Sebastian Trimpe"
+    venue: "CoRL'22: Conference on Robot Learning. 2022."
+    paper_pdf: "https://proceedings.mlr.press/v164/rath22a.html"
+    selected: n
+
+  - title: "Structured learning of rigid-body dynamics: A survey and unified view from a robotics perspective"
+    authors: "<b>A. René Geist</b>, Sebastian Trimpe"
+    venue: "GAMM-Mitteilungen, Special Issue: Scientific Machine Learning. 2021."
+    paper_pdf: "https://onlinelibrary.wiley.com/doi/full/10.1002/gamm.202100009"
+    selected: n
+
+  - title: "Learning constrained dynamics with Gauss principle adhering Gaussian processes"
+    authors: "<b>A. René Geist</b>, Sebastian Trimpe"
+    venue: "L4DC'20: Conference on Learning for Dynamics and Control. 2020."
+    paper_pdf: "https://proceedings.mlr.press/v120/geist20a.html"
+    selected: y
+
+  - title: "Learning environmental field exploration with computationally constrained underwater robots: Gaussian processes meet stochastic optimal control"
+    authors: "Daniel Andre Duecker*, <b>Andreas René Geist*</b>, Edwin Kreuzer, Eugen Solowjow"
+    venue: "Sensors. 2019."
+    paper_pdf: "https://www.mdpi.com/1424-8220/19/9/2094"
+    selected: n
+
+  - title: "Data collection for robust end-to-end lateral vehicle control"
+    authors: "<b>A. René Geist</b>, Andreas Hansen, Eugen Solowjow, Shun Yang, Edwin Kreuzer"
+    venue: "DSCC'17: ASME Dynamic Systems and Control Conference. 2017."
+    paper_pdf: "https://asmedigitalcollection.asme.org/DSCC/proceedings-abstract/DSCC2017/58271/229554"
+    video: "https://www.youtube.com/watch?v=YVPeplq8nQo"
+    selected: n
+
+  - title: "Embedded spherical localization for micro underwater vehicles based on attenuation of electro-magnetic carrier signals"
+    authors: "Daniel-André Duecker, <b>A. René Geist</b>, Michael Hengeler, Edwin Kreuzer, Marc-André Pick, Viktor Rausch, Eugen Solowjow"
+    venue: "Sensors. 2017."
+    paper_pdf: "https://www.mdpi.com/1424-8220/17/5/959"
+    video: "https://www.youtube.com/watch?v=2j6eCJWrLf8"
+    selected: n
+
+  - title: "Towards a hyperbolic acoustic one-way localization system for underwater swarm robotics"
+    authors: "<b>Andreas René Geist</b>, Axel Hackbarth, Edwin Kreuzer, Viktor Rausch, Michael Sankur, Eugen Solowjow"
+    venue: "ICRA'16: IEEE International Conference on Robotics and Automation. 2016."
+    paper_pdf: "https://ieeexplore.ieee.org/abstract/document/7487655"
+    selected: n
