@@ -6,28 +6,20 @@ title: Home
 <div class="docs-section" id="about">
   <h4>About</h4>
   <p>
-  My research focuses on <b>data-driven dynamics simulators</b>.
-  Simulators help us to predict the motion of physical systems such as robots, folding proteins, weather, and energy networks over time.
-  To unlock new applications in these domains, simulators have to be increasingly <b>accurate and reliable</b>. In my research,
-  I look at how we can <b>improve simulator performance by combining physics with machine learning</b>.
+  I'm a postdoc at the Tübingen AI Center focused on <b>AI-driven robot simulation and control</b>. 
+  Simulation is a cornerstone of modern robotics as many of today's most impressive real-world stunts - such as 
+  humanoid robots jumping over obstacles - are first learned in carefully designed virtual environments. 
+  The fidelity and structure of these simulators strongly shape what robots can ultimately achieve outside the lab.
+  </p>
+  <p>
+  My research develops high-capability simulations of the physical world by 
+  combining machine learning with computational physics. Current challenges I work on include differentiable contact dynamics, AI-driven particle simulations,  
+  narrowing the sim-to-real gap, efficient domain randomization, and modeling soft-body interactions, among others.
   </p>
 </div>
 
-<!-- ========== BIO ========== -->
-<div class="docs-section" id="bio">
-  <h4>Bio</h4>
-  <p>
-  I'm a postdoc working with <a href="https://scholar.google.de/citations?user=b-JF-UIAAAAJ&hl=en" target="_blank">Georg Martius</a> at the <a href="https://uni-tuebingen.de/en/" target="_blank">University of Tübingen</a> (until recently we've been located at the <a href="https://is.mpg.de/" target="_blank">MPI-IS</a>).
-  I've been a postdoc at <a href="https://www.rwth-aachen.de" target="_blank">RWTH Aachen</a> with Sebastian Trimpe working on physics-informed neuralODEs.
-  During my PhD supervised by <a href="https://scholar.google.de/citations?user=9kzHZssAAAAJ&hl=de" target="_blank">Sebastian Trimpe</a> at the <a href="https://is.mpg.de/" target="_blank">Max Planck Institute for Intelligent Systems</a>, I developed probabilistic models to learn implicitly-constrained robot dynamics.
-  In collaboration with <a href="https://scholar.google.de/citations?user=L9ztLe8AAAAJ&hl=en" target="_blank">Jonathan Fiene</a>, we developed the <a href="https://sites.google.com/view/wheelbot" target="_blank">"Wheelbot"</a> being a robot platform for teaching control theory and robotics.
-  </p>
-  <p>
-  During my Master's in <a href="https://www.tuhh.de/tuhh/startseite" target="_blank">Theoretical Mechanical Engineering at TU Hamburg</a>, I worked on end-to-end vehicle control as a research intern at the Vehicle Dynamics and Control laboratory of the <a href="https://www.berkeley.edu/" target="_blank">University of California, Berkeley</a> and as a research student on autonomous field exploration via AUV swarms working with <a href="https://scholar.google.com.au/citations?user=AvvaaJcAAAAJ&hl=en" target="_blank">Eugen Solowjow</a>.
-  </p>
-</div>
 
-<!-- ========== NEWS ========== -->
+<!-- ========== NEWS ==========
 <div class="docs-section" id="news">
   <h4>News</h4>
   <UL style="list-style-type: none; padding: 2px; overflow-y: scroll; height:500px;">
@@ -36,13 +28,14 @@ title: Home
     {% endfor %}
   </UL>
 </div>
+-->
 
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
   <h4>Publications</h4>
 
   <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
-  <sup>*</sup> indicates equal contribution.
+  A star besides an author's name indicates equal contribution.
   </p>
 
   <ul class="tab-nav">
@@ -156,7 +149,7 @@ title: Home
   </div>
 </div>
 
-<!-- ========== PROJECTS ========== -->
+<!-- ========== PROJECTS ==========
 <div class="docs-section" id="projects">
   <h4>Projects</h4>
 
@@ -230,6 +223,7 @@ title: Home
 
   <p><i>Projects coming soon.</i></p>
 </div>
+-->
 
 <!-- ========== TEACHING ========== -->
 <div class="docs-section" id="teaching">
@@ -241,19 +235,32 @@ title: Home
   </p>
   {% endfor %}
 
-  <hr/>
+  <!-- <hr/>
 
   <h5>Supervision</h5>
   <ul>
     <li>{{ site.data.teaching.supervision.masters_theses }} x Master's Thesis Projects</li>
     <li>{{ site.data.teaching.supervision.semester_projects }} x Semester Thesis Projects</li>
     <li>{{ site.data.teaching.supervision.internship_projects }} x Internship Projects</li>
-  </ul>
+  </ul> -->
 </div>
 
 <!-- ========== RESUME ========== -->
 <div class="docs-section" id="resume">
   <h4>Vita</h4>
+
+  <p><a href="{{ '/assets/docs/geist_cv.pdf' | prepend: site.baseurl }}" target="_blank">Full CV (PDF)</a></p>
+
+  <p>
+  I'm a postdoc working with <a href="https://scholar.google.de/citations?user=b-JF-UIAAAAJ&hl=en" target="_blank">Georg Martius</a> at the <a href="https://uni-tuebingen.de/en/" target="_blank">University of Tübingen</a> (until recently we've been located at the <a href="https://is.mpg.de/" target="_blank">MPI-IS</a>).
+  During my PhD supervised by <a href="https://scholar.google.de/citations?user=9kzHZssAAAAJ&hl=de" target="_blank">Sebastian 
+    Trimpe</a> at the <a href="https://is.mpg.de/" target="_blank">Max Planck Institute for Intelligent Systems</a>, I worked on 
+    physics-informed machine learning of implicitly-constrained robot dynamics.
+  In collaboration with <a href="https://scholar.google.de/citations?user=L9ztLe8AAAAJ&hl=en" target="_blank">Jonathan Fiene</a>, we developed the <a href="https://sites.google.com/view/wheelbot" target="_blank">"Wheelbot"</a> being a robot platform for teaching control theory and robotics.
+  </p>
+  <p>
+  I worked on end-to-end vehicle control as a research intern at the Vehicle Dynamics and Control laboratory of the <a href="https://www.berkeley.edu/" target="_blank">University of California, Berkeley</a>. During my Master's in <a href="https://www.tuhh.de/tuhh/startseite" target="_blank">Theoretical Mechanical Engineering at TU Hamburg</a>, I worked as a research student on autonomous field exploration via AUV swarms working with <a href="https://scholar.google.com.au/citations?user=AvvaaJcAAAAJ&hl=en" target="_blank">Eugen Solowjow</a>.
+  </p>
 
   <!-- The Timeline -->
   <ul class="timeline">

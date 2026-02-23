@@ -1,4 +1,37 @@
 papers:
+  - title: "SoftJAX and SoftTorch: Empowering Automatic Differentiation Libraries with Informative Gradients"
+    authors: "Anselm Paulus*, <b>A. René Geist*</b>, Vít Musil, Sebastian Hoffmann, Georg Martius"
+    venue: February 2026
+    preview: softjax.png
+    selected: y
+
+  - title: "Smoothly Differentiable and Efficiently Vectorizable Contact Manifold Generation"
+    authors: "Onur Beker, <b>A. René Geist</b>, Anselm Paulus, Nico Gürtler, Ji Shi, Sylvain Calinon, Georg Martius"
+    venue: January 2026
+    preview: contax.png
+    selected: n
+
+  - title: "Learning 3D-Gaussian Simulators from RGB Videos"
+    authors: "Mikel Zhobro, <b>A. René Geist*</b>, Georg Martius*"
+    venue: February 2026
+    preview: 3dgsim.png
+    arxiv: "https://arxiv.org/abs/2503.24009"
+    selected: y
+
+  - title: "Hard Contacts with Soft Gradients: Refining Differentiable Simulators for Learning and Control"
+    authors: "Anselm Paulus*, <b>A. René Geist*</b>, Pierre Schumacher, Vít Musil, Georg Martius"
+    venue: "ICLR'26: International Conference on Learning Representations. 2026."
+    preview: diffmjx.png
+    arxiv: "https://arxiv.org/abs/2506.14186"
+    selected: y
+
+  - title: "A Smooth Analytical Formulation of Collision Detection and Rigid Body Dynamics With Contact"
+    authors: "Onur Beker, Nico Gürtler, Ji Shi, <b>A. René Geist</b>, et al."
+    venue: "IROS'25: IEEE/RSJ International Conference on Intelligent Robots and Systems. 2025."
+    preview: ssdf.png
+    arxiv: "https://arxiv.org/abs/2503.11736"
+    selected: n
+
   - title: "Learning with 3D rotations, a hitchhiker's guide to SO(3)"
     authors: "<b>A. René Geist</b>, Jonas Frey, Mikel Zhobro, Anna Levina, Georg Martius"
     venue: "ICML'24: International Conference on Machine Learning. 2024."
@@ -7,10 +40,11 @@ papers:
     arxiv: "https://arxiv.org/abs/2404.11735"
     selected: y
 
-  - title: "Learning deformable linear object dynamics from a single trajectory"
+  - title: "Learning Deformable Linear Object Dynamics From a Single Trajectory"
     authors: "Shamil Mamedov, <b>A. René Geist</b>, Ruan Viljoen, Sebastian Trimpe, Jan Swevers"
-    venue: "arXiv preprint. 2024."
-    preview: singletrajectory.png
+    venue: "IEEE Robotics and Automation Letters. 2025."
+    preview: singletrajectory2.png
+    paper_pdf: "https://doi.org/10.1109/LRA.2025.3577421"
     arxiv: "https://arxiv.org/abs/2407.03476"
     selected: y
 
@@ -55,21 +89,21 @@ papers:
   - title: "Learning constrained dynamics with Gauss principle adhering Gaussian processes"
     authors: "<b>A. René Geist</b>, Sebastian Trimpe"
     venue: "L4DC'20: Conference on Learning for Dynamics and Control. 2020."
-    preview: gaussprinciple2.png
+    preview: gaussprinciple3.png
     paper_pdf: "https://proceedings.mlr.press/v120/geist20a.html"
-    selected: y
+    selected: n
 
   - title: "Learning environmental field exploration with computationally constrained underwater robots: Gaussian processes meet stochastic optimal control"
     authors: "Daniel Andre Duecker*, <b>Andreas René Geist*</b>, Edwin Kreuzer, Eugen Solowjow"
     venue: "Sensors. 2019."
-    preview: learningenvironment.png
+    preview: learningenvironment2.png
     paper_pdf: "https://www.mdpi.com/1424-8220/19/9/2094"
     selected: n
 
   - title: "Data collection for robust end-to-end lateral vehicle control"
     authors: "<b>A. René Geist</b>, Andreas Hansen, Eugen Solowjow, Shun Yang, Edwin Kreuzer"
     venue: "DSCC'17: ASME Dynamic Systems and Control Conference. 2017."
-    preview: datacollection2.png
+    preview: berkeley.png
     paper_pdf: "https://asmedigitalcollection.asme.org/DSCC/proceedings-abstract/DSCC2017/58271/229554"
     video: "https://www.youtube.com/watch?v=YVPeplq8nQo"
     selected: n
@@ -77,7 +111,7 @@ papers:
   - title: "Embedded spherical localization for micro underwater vehicles based on attenuation of electro-magnetic carrier signals"
     authors: "Daniel-André Duecker, <b>A. René Geist</b>, Michael Hengeler, Edwin Kreuzer, Marc-André Pick, Viktor Rausch, Eugen Solowjow"
     venue: "Sensors. 2017."
-    preview: embeddedspherical.png
+    preview: hippocampus2.jpg
     paper_pdf: "https://www.mdpi.com/1424-8220/17/5/959"
     video: "https://www.youtube.com/watch?v=2j6eCJWrLf8"
     selected: n
@@ -85,6 +119,6 @@ papers:
   - title: "Towards a hyperbolic acoustic one-way localization system for underwater swarm robotics"
     authors: "<b>Andreas René Geist</b>, Axel Hackbarth, Edwin Kreuzer, Viktor Rausch, Michael Sankur, Eugen Solowjow"
     venue: "ICRA'16: IEEE International Conference on Robotics and Automation. 2016."
-    preview: towardshyperbolic.gif
+    preview: hippocampus.png
     paper_pdf: "https://ieeexplore.ieee.org/abstract/document/7487655"
     selected: n

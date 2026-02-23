@@ -1,25 +1,25 @@
 experiences:
 
-- place: "University of Tübingen"
-  time: "2024 - now"
+- place: "University of Tübingen & MPI-IS Tübingen"
+  time: "2023 - now"
   title: "Postdoc"
   subtitle: "Autonomous Learning Group (Georg Martius)"
   category: "work"
 
 - place: "RWTH Aachen"
-  time: "2022 - 2024"
+  time: "2022"
   title: "Postdoc"
-  subtitle: "Institute for Data Science in Mechanical Engineering (Sebastian Trimpe)"
+  subtitle: "Data Science in Mechanical Engineering (Sebastian Trimpe)"
   category: "work"
 
-- place: "MPI for Intelligent Systems"
+- place: "MPI-IS Stuttgart"
   time: "2018 - 2022"
   title: "Ph.D. Student"
   subtitle: "Intelligent Control Systems (Sebastian Trimpe)"
   category: "school"
 
 - place: "UC Berkeley"
-  time: "Summer 2017"
+  time: "2017"
   title: "Research Intern"
   subtitle: "Vehicle Dynamics and Control Laboratory"
   category: "work"
