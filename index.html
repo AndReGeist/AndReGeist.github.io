@@ -229,11 +229,29 @@ title: Home
 <div class="docs-section" id="teaching">
   <h4>Teaching</h4>
 
+  {% assign current_year = "" %}
   {% for entry in site.data.teaching.teaching %}
-  <p>
-    {{ entry.year }}, {{ entry.institution }} ({{ entry.advisor }}) &mdash; <b>{{ entry.role }}: "{{ entry.course }}"</b>{% if entry.details %} &mdash; {{ entry.details }}{% endif %}
-  </p>
+    {% if entry.year != current_year %}
+      {% if current_year != "" %}
+        </div>
+      {% endif %}
+      <div class="teaching-year-group">
+        <div class="teaching-year-label">{{ entry.year }}</div>
+      {% assign current_year = entry.year %}
+    {% endif %}
+    <div class="teaching-entry">
+      <span class="teaching-role-badge {% if entry.role == 'Guest lecturer' %}badge-lecturer{% else %}badge-ta{% endif %}">{{ entry.role }}</span>
+      <b>{{ entry.course }}</b>
+      <br/>
+      <span class="teaching-institution">{{ entry.institution }} &middot; {{ entry.advisor }}</span>
+      {% if entry.details %}
+        <br/><span class="teaching-details">{{ entry.details }}</span>
+      {% endif %}
+    </div>
   {% endfor %}
+  {% if current_year != "" %}
+    </div>
+  {% endif %}
 
   <!-- <hr/>
 

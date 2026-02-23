@@ -1,10 +1,30 @@
 teaching:
+  - year: "2025"
+    institution: "University of Tübingen"
+    advisor: "Georg Martius"
+    role: "Guest lecturer"
+    course: "Reinforcement Learning"
+    details: "Value estimation with Monte Carlo and TD learning"
+
+  - year: "2025"
+    institution: "University of Tübingen"
+    advisor: "Georg Martius"
+    role: "Teaching Assistant"
+    course: "Reinforcement Learning"
+
   - year: "2024"
     institution: "University of Tübingen"
     advisor: "Georg Martius"
     role: "Guest lecturer"
     course: "Basics of Machine Learning"
     details: "Ridge regression, Bayesian regression, Decision trees, Random Forest"
+
+  - year: "2024"
+    institution: "University of Tübingen"
+    advisor: "Georg Martius"
+    role: "Guest lecturer"
+    course: "Reinforcement Learning (Proseminar)"
+    details: "From discrete to continuous deep reinforcement learning"
 
   - year: "2024"
     institution: "University of Tübingen"
